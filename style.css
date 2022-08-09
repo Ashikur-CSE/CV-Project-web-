@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: lightsteelblue;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid lightsteelblue;
+    border-radius: 10px;
+}
+.image{
+    width: 120px;
+    height: 100px;
+    border: white 1px solid;
+    border-radius: 50%;
+    float: left;
+    
+}
+.name{
+    float: left;
+    padding: 30px;
+
+}
+h1,h2,h3,h4,h5,h6{
+    color: indigo;
+}
+.contact{
+    float: right;
+    padding: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color:tomato ;
+    cursor: grab;
+}
+.clear{
+    clear: both;
+}
+hr{
+    border: black 3px solid;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 100%;
+}
+.left-div{
+    width: 30%;
+    float: left;
+    margin: 10px 0px;
+}
+.right-div{
+    width: 70%;
+    float: left;
+    margin: 10px 0px;
+
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    margin: 20px auto;
+}
+table,th,td{
+    width: 100%;
+    border: 1px black solid;
+    text-align: center;
+    border-collapse: collapse;
+    height: 40px;
+}
+tr:hover{
+    background-color: chartreuse;
+}
+p{
+    margin-left: 50px;
+    margin-top: 13px;
+    margin-bottom:10px;
+}
+.last-block{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.last-block a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    
+}
+.last-block p{
+    color: white;
+    margin: 20px;
+}
+.last-block a:hover{
+    color: burlywood;
+    cursor: grabbing;
+    text-decoration: underline;
+}
+
